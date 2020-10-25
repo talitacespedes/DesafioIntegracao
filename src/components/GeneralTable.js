@@ -36,7 +36,7 @@ export default class GeneralTable extends Component {
         
         let name;
         categories.map(cat => {
-            if(cat.id == category){
+            if(cat.id === category){
                 name = cat.nome;
             };
 
